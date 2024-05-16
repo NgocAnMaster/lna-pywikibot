@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/NgocAnMaster/lna-pywikibot.git
+	fetch = +refs/heads/stable:refs/remotes/origin/stable
+[branch "stable"]
+	remote = origin
+	merge = refs/heads/stable
